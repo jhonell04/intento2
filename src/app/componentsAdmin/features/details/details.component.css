@@ -1,0 +1,153 @@
+.contenido-principal {
+  margin-left: 240px; /* espacio por barra lateral */
+  padding: 1.5rem;
+  background-color: #205781;
+  font-family: 'Ubuntu', sans-serif;
+  min-height: 100vh;
+  
+}
+
+.breadcrumb {
+  font-size: 0.875rem;
+  color: #c7cdda;
+  margin-bottom: 1rem;
+}
+
+.breadcrumb .activo {
+  color: #c7cdda;
+  font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.titulo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.fila-informacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.grid-detalle {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  width: 100%;
+  background-color: #98D2C0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta {
+  background-color: #98D2C0;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-derecha {
+  min-width: 160px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.icono-cara {
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.icono-feliz {
+  font-size: 3rem;
+  color: #5672bd;
+}
+
+.etiqueta {
+  font-weight: 500;
+  color: #0a3453;
+  line-height: 40px;
+}
+
+.estado-pagos {
+  margin-left: 2rem;
+}
+
+.estado-pagado {
+  display: inline-block;
+  background-color: #4F959D;
+  color: #121c1d;
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding: 0.3rem 1rem;
+  border-radius: 9999px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.tabla-productos table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin: 0;
+}
+.tabla-productos{
+    background-color:#98D2C0;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    height: calc(45vh - 40px);
+}
+
+.tabla-productos {
+  background-color: #98D2C0;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  overflow-x: auto;
+  padding: 0; /* Asegúrate de esto */
+  margin: 0;
+
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-productos th,
+.tabla-productos td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+
+}
+
+.tabla-productos th {
+  background-color:#4F959D;
+  color: white;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+/* Asegura que la tarjeta-informacion se comporte igual que grid-detalle */
+.tarjeta-informacion {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #98D2C0  ;
+}
+
