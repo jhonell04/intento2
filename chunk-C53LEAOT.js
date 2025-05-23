@@ -1,0 +1,1 @@
+import"./chunk-FK42CRUA.js";var o=[{path:"app-receipts",loadComponent:()=>import("./chunk-AP44HZGH.js").then(t=>t.ReceiptsComponent)},{path:"details",loadComponent:()=>import("./chunk-XTCSTAPW.js").then(t=>t.DetailsComponent)},{path:"",loadComponent:()=>import("./chunk-5QYOJVT4.js").then(t=>t.AdminComponent)},{path:"**",redirectTo:""}];export{o as AdminRouting};

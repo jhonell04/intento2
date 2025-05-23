@@ -1,0 +1,1 @@
+import"./chunk-FK42CRUA.js";var t=[{path:"log-in",loadComponent:()=>import("./chunk-CTKJLBXN.js").then(o=>o.AuthLogInComponent)},{path:"sign-up",loadComponent:()=>import("./chunk-IDQSP4BA.js").then(o=>o.AuthSignUpComponent)},{path:"**",redirectTo:"log-in"}];export{t as AuthRouting};
